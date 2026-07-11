@@ -15,6 +15,16 @@ This project demonstrates a Wazuh SIEM home lab built for hands-on SOC Analyst t
 * Simulated security events by performing file creation, modification, and deletion activities on the monitored Windows endpoint to validate alert generation and detection accuracy in Wazuh.
 * implemented a custom rule in Wazuh (local_rules.xml) to identify brute-force authentication attempts, validated rule performance through simulated attack scenarios, and analyzed generated alerts
 
+## Implemented Features
+* Wazuh server installation and configuration in Ubuntu
+* Wazuh agents deployed and connected in Windows
+* Create custom rules to identify a brute-force attack
+* File Integrity Monitoring (FIM)
+* Windows endpoint monitoring
+* Security event collection
+* Basic alert investigation
+* MITRE ATT&CK mapping
+
 ## ScreenShots
 #### Windows Agent Overview
 <img width="1920" height="1080" alt="Screenshot From 2026-07-11 22-29-53" src="https://github.com/user-attachments/assets/d454a447-65c1-4e54-98c8-13d08f16eb08" />
@@ -31,13 +41,4 @@ This project demonstrates a Wazuh SIEM home lab built for hands-on SOC Analyst t
 ### Vulnerability detection
 <img width="1920" height="1080" alt="Screenshot From 2026-07-11 22-54-13" src="https://github.com/user-attachments/assets/ecab57c7-129c-4855-83b2-a98e8afdea37" />
 
-## Implemented Features
-* Wazuh server installation and configuration in Ubuntu
-* Wazuh agents deployed and connected in Windows
-* Create custom rules to identify a brute-force attack
-* File Integrity Monitoring (FIM)
-* Windows endpoint monitoring
-* Security event collection
-* Basic alert investigation
-* MITRE ATT&CK mapping
 
