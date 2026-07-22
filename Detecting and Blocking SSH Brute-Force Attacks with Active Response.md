@@ -116,25 +116,9 @@ sudo hydra -t 4 -l <victim_username> -P <PASSWD_LIST.txt> <victim_ip> ssh
   <location>/var/ossec/logs/active-responses.log</location>
 </localfile>
 ```
-<img width="1920" height="714" alt="Screenshot from 2026-07-22 16-11-11" src="https://github.com/user-attachments/assets/35422bf7-6ffe-4d35-afe1-4d2700e17572" />
+<img width="1920" height="714" alt="Screenshot from 2026-07-22 16-11-11" src="https://github.com/user-attachments/assets/35422bf7-6ffe-4d35-afe1-4d2700e17572" /> <br><br>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Video Tutorial links <br>
+https://drive.google.com/file/d/1w0fKHHJw0F_-H8a-uvGeTzKyC6Dm840k/view?usp=sharing
