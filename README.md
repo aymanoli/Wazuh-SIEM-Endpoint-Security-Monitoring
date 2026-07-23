@@ -8,12 +8,14 @@ This project demonstrates a Wazuh SIEM home lab built for hands-on SOC Analyst t
 |-------------|---------|
 | Wazuh Server | Ubuntu Server |
 | Wazuh Agent  | Windows Agent |
+| Wazuh Agent  | Ubuntu Agent |
 
 ## Main Project Objectives
 * Built and configured a Wazuh SIEM home lab by deploying the Wazuh manager on Ubuntu and Wazuh agent on Windows endpoint for centralized log monitoring and security alert.
 * Configured File Integrity Monitoring (FIM), Windows event log collection, vulnerability detection, and MITRE ATT&CK mapped alert visibility within the Wazuh dashboard.
 * Simulated security events by performing file creation, modification, and deletion activities on the monitored Windows endpoint to validate alert generation and detection accuracy in Wazuh.
-* implemented a custom rule in Wazuh (local_rules.xml) to identify brute-force authentication attempts, validated rule performance through simulated attack scenarios, and analyzed generated alerts
+* Implemented a custom rule in Wazuh (local_rules.xml) to identify brute-force authentication attempts, validated rule performance through simulated attack scenarios, and analyzed generated alerts
+* Detecting and Blocking SSH Brute-Force Attacks with Active Response. To integrate SSH brute-force, create another Ubuntu agent.  
 
 ## Implemented Features
 * Wazuh server installation and configuration in Ubuntu
